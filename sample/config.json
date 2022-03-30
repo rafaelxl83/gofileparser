@@ -1,0 +1,16 @@
+{
+    "config" : {
+        "header" : {
+            "id": "(?i)number|id|emp",
+            "name" : "(?i)name|first",
+            "email" : "(?i)mail",
+            "salary" : "(?i)wage|rate|salary"
+        },
+        "outorder" : {
+            "id": 0,
+            "name": 1,
+            "email": 2,
+            "salary": 3
+        }
+    }
+}
